@@ -167,11 +167,13 @@ screen main_menu():
 
     if ball_active:
         add "gui/screens/main_menu/background2.png"
-        add "gui/screens/main_menu/crystal_ball.png" xalign 0.5 ypos 230 #at dissolve
-
-    if ball_active == False:
+    else:
         add "gui/screens/main_menu/background.png"
-        add "floating_crystal_ball"
+
+    showif ball_active:
+        add "gui/screens/main_menu/crystal_ball.png" at crystal_ball_stop
+    else:
+        add "gui/screens/main_menu/crystal_ball.png" at crystal_ball_float
         add "ball_shadow_animation"
 
     if gui.show_name:
