@@ -59,7 +59,8 @@ screen choice(items):
     default i = 0
     style_prefix "choice"
     add "gui/screens/overlay.png"
-    add "floating_crystal_ball"
+    showif True:
+        add "gui/screens/main_menu/crystal_ball.png" at crystal_ball_float
     add "twinkle" pos(470,200)
 
 
