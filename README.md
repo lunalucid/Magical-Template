@@ -1,7 +1,11 @@
 ## Magical Template
-<span style="color:red">FREE VERSION</span>
-[![Creative Commons Attribution Non-Commercial](https://i.creativecommons.org/l/by-nc/4.0/88x31.png "CC BY-NC License")](https://creativecommons.org/licenses/by-nc/4.0/)
 
+| License | |
+| ---- | ---- |
+| Personal use (free) | [![licensebuttons by-nc](https://licensebuttons.net/l/by-nc/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0) |
+| Commercial use (paid) | [Commercial License Agreement](https://drive.google.com/file/d/1UbkxsBMInvxzW3dAk7XV6hAwjv_8Twlf/view?usp=sharing)
+
+___
 
 This is a fully coded GUI template for Ren'Py.  
 - If you use this template as a base for your game or borrow any GUI elements or code, please give attribution to [LunaLucid](https://lunalucid.itch.io/).
@@ -10,6 +14,8 @@ This is a fully coded GUI template for Ren'Py.
 
 
 Animations/theme elements are located in **theme_stuff.rpy**
+
+___
 
 #### Menu Choices
 ![Choice Menu](https://img.itch.zone/aW1hZ2UvNTA5Nzg5LzI2NDYwMDQucG5n/347x500/BbaiTn.png)  
@@ -27,8 +33,11 @@ menu:
         # do something
 ```
 
+___
+
 #### Applying Existing Animations
 You can place the animations for the menus in other areas as you build more of your game.
+
 ###### References:
 - **twinkle** - *composite of random twinkling, rotating stars*
 - **vial** - *random color changing potion vial with bubbles and sparkles*
